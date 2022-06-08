@@ -1,0 +1,150 @@
+*{
+    text-decoration: none;
+    margin: auto;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#img{
+    width: 300px;
+    margin-left: 300px;
+    transform: translateY(0px);
+}
+.green{color: green;}
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 25px;
+    transform: translateX(-200px);
+    transition:transform.4s;
+    
+
+}
+ul li a:hover{
+    color: green;
+    
+}
+ul li a{
+    color:black;
+}
+.green{
+    color: green;
+}
+.logo{
+    position: center;
+    transform: translateX(700px);
+    margin-top: 70px;
+}
+.line{
+    color: green;
+    font-size: 40px;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+.paragraphs{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    color: black;
+    width: 800px;
+
+}
+.paragraph{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 20px;
+    border-radius: 25px;
+    
+}
+.x{
+    font-size: 30px;
+}
+.y{
+    font-size: 30px;
+}
+.z{
+    font-size: 30px;
+}
+.p1{
+    background-color: green;
+    padding: 20px;
+    border-radius: 25px;
+    padding-bottom: 200px;
+    transform: translateX(220px);
+    animation:fade_in 4s
+}
+.p2{ background-color: blue;
+    padding: 20px;
+    border-radius: 25px;
+    padding-bottom: 200px;
+    animation: fade_in 5s ;
+
+    }
+.p3{
+    background-color: black;
+    padding: 20px;
+    border-radius: 25px;
+    padding-bottom: 200px;
+    transform: translateX(-50px);
+    margin-left: 0px;
+    animation: fade_in 9s;
+
+}
+@keyframes fade_in { from {opacity: 0;}
+to {opacity: 1;}
+    
+}
+.we{
+    color:green;
+    font-size: 20px;
+    width: 140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.logoe{
+    display: flex;
+    flex-direction: row;
+}
+.imga{width: 50px;}
+.imgb{width: 50px;}
+.imgc{
+    width: 50px;
+}
+.back{
+    background-color: rgb(46, 216, 199);
+    box-sizing: border-box;
+    padding-bottom: 0%;
+}
+.lo{
+    width: 300x;
+    margin-left: 50px;
+    margin-top: 300px;
+    margin-bottom: 0px;
+}
+.lex{
+    font-size: 50px;
+    color: green;
+}
+.royel{
+    margin-left: 800px;
+    width: 400px;
+    position: relative; 
+  top: -500px;
+
+}
+.random{
+    position: center;
+    font-size: 10px;
+    margin-left: 600px;
+    margin-top: 50px;
+
+}
+.g{
+    margin-left: 600px;
+    color: green;
+}
